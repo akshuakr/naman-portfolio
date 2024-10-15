@@ -1,0 +1,21 @@
+.container{
+    // background-color: yellow;
+    padding-top: 80px;
+}
+
+.example{
+    // background-color: white;
+    // height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    color: wheat;
+    font-family: var(--font-satoshi);
+    font-weight: 400;
+    font-weight: 700;
+}

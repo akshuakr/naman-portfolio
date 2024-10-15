@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 16px 0px;
+    font-family: var(--font-satoshi);
+    font-weight: 400;
+    font-size: 14px;
+    color: #fafafa;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+    font-size: 24px;
+    letter-spacing: 0.35px;
+
+    cursor: pointer;
+}
+
+.right {
+    padding-right: 24px;
+    cursor: pointer;
+}
