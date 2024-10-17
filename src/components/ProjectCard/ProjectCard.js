@@ -1,21 +1,15 @@
 import Image from "next/image";
 import styles from "./ProjectCard.module.scss";
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
     return (
         <div className={styles.container}>
             {/* <div className={styles.projectImage}> */}
-            <Image
-                src="/images/goodspace-project-hd.png"
-                alt="GoodSpace Logo"
-                width={958}
-                height={540}
-                priority
-            />
+            <Image src={props.imageSource} alt="GoodSpace Logo" width={958} height={540} priority />
             {/* </div> */}
             <div className={styles.projectDesc}>
                 <div className={styles.projectDescTop}>
-                    <div className={styles.projectTitle}>Goodspace: Find work hire talent</div>
+                    <div className={styles.projectTitle}>{props.title}</div>
                     <div className={styles.visitSite}>
                         Visit Site
                         <Image
@@ -27,11 +21,7 @@ const ProjectCard = () => {
                         />
                     </div>
                 </div>
-                <div className={styles.projectDescBottom}>
-                    Green Genie aims to provide a convenient and reliable service that delivers
-                    high-quality, fresh, and exotic fruits and vegetables straight to your
-                    doorsteps.
-                </div>
+                <div className={styles.projectDescBottom}>{props.description}</div>
             </div>
         </div>
     );

@@ -29,27 +29,30 @@ const LandingPage = () => {
 
     const projectsData = [
         {
-            title: 'Goodspace: Find work hire talent',
-            description: 'Bring ancient Vedic wisdom to your fingertips, offering personalized spiritual guidance, mantras, meditation, and rituals for holistic growth.',
-            imageSource: '/images/goodspace-project-hd.png',
+            title: "Goodspace: Find work hire talent",
+            description:
+                "Bring ancient Vedic wisdom to your fingertips, offering personalized spiritual guidance, mantras, meditation, and rituals for holistic growth.",
+            imageSource: "/images/goodspace-project-hd.png",
         },
         {
-            title: 'Veda Smriti: World Vedic Wisdom',
-            description: 'Bring ancient Vedic wisdom to your fingertips, offering personalized spiritual guidance, mantras, meditation, and rituals for holistic growth.',
-            imageSource: '/images/veda-smirti.png',
+            title: "Veda Smriti: World Vedic Wisdom",
+            description:
+                "Bring ancient Vedic wisdom to your fingertips, offering personalized spiritual guidance, mantras, meditation, and rituals for holistic growth.",
+            imageSource: "/images/veda-smirti.png",
         },
         {
-            title: 'Goodspace : Auto Interview',
-            description: 'An AI-powered interviewer that conducts structured interviews consistently, assessing both technical and soft skills objectively.',
-            imageSource: '/images/gs-interview.png',
+            title: "Goodspace : Auto Interview",
+            description:
+                "An AI-powered interviewer that conducts structured interviews consistently, assessing both technical and soft skills objectively.",
+            imageSource: "/images/gs-interview.png",
         },
         {
-            title: 'Green Genie',
-            description: 'Green Genie aims to provide a convenient and reliable service that delivers high-quality, fresh, and exotic fruits and vegetables straight to your doorsteps.',
-            imageSource: '/images/green-genie.png',
+            title: "Green Genie",
+            description:
+                "Green Genie aims to provide a convenient and reliable service that delivers high-quality, fresh, and exotic fruits and vegetables straight to your doorsteps.",
+            imageSource: "/images/green-genie.png",
         },
-    ]
-
+    ];
 
     return (
         <div className={styles.container}>
@@ -136,10 +139,14 @@ const LandingPage = () => {
             <div className={styles.projectsContainer}>
                 Projects
                 <div className={styles.projects}>
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
+                    {projectsData.map((project, index) => (
+                        <ProjectCard
+                            key={index}
+                            title={project.title}
+                            description={project.description}
+                            imageSource={project.imageSource}
+                        />
+                    ))}
                 </div>
             </div>
             <Footer />
