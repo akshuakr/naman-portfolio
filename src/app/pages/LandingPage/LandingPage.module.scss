@@ -1,21 +1,124 @@
-.container{
+.container {
     // background-color: yellow;
     padding-top: 80px;
+
+    font-family: var(--font-satoshi);
 }
 
-.example{
-    // background-color: white;
-    // height: 100vh;
-
+.heroContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
+    margin-top: 56px;
+    padding: 0px 16px;
 }
 
-.text{
-    color: wheat;
-    font-family: var(--font-satoshi);
+.heroTop {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.heroTime {
+    color: #fafafa;
+    font-size: 14px;
     font-weight: 400;
+    letter-spacing: 0.35px;
+}
+
+.heroName {
+    color: #fafafa;
+    font-size: 32px;
     font-weight: 700;
+    letter-spacing: 0.35px;
+}
+
+.heroAbout {
+    color: #a1a1aa;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+    line-height: normal;
+}
+
+.heroMiddle {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.heroWorkedWithText {
+    color: #fafafa;
+    letter-spacing: 1.12px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.heroWorkedWithLogos {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 16px;
+}
+
+.heroBottom {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.heroResume {
+    background-color: #fafafa;
+    color: #09090b;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 9999px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+.heroSocial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 8px;
+}
+
+.heroSocialCircle {
+    display: flex;
+    width: 43px;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 9999px;
+    background: #27272a;
+    cursor: pointer;
+}
+
+.projectsContainer{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.35px;
+    color: #FAFAFA;
+
+    padding: 0px 16px;
+    margin-bottom: 56px;
+}
+
+.projects{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
 }

@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.projectImage {
+}
+
+.projectDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.projectDescTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectTitle {
+    letter-spacing: 0.35px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fafafa;
+}
+
+.visitSite {
+    font-size: 20px;
+    font-weight: 700;
+    color: #09090b;
+    background-color: #fafafa;
+
+    padding: 12px 16px;
+    border-radius: 9999px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectDescBottom {
+    // background-color: antiquewhite;
+    width: 75%;
+    color: #a1a1aa;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.35px;
+    text-align: left;
+}
