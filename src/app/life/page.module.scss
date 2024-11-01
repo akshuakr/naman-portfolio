@@ -1,0 +1,15 @@
+.container {
+    background-color: #09090b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 80px;
+
+    font-family: var(--font-satoshi);
+}
+
+.mainContent {
+    width: 992px;
+}
+
