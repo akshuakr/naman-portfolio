@@ -22,7 +22,7 @@ const Page = () => {
                         </div>
                         <div className={styles.aboutNamanLifeDesc}>
                             <div>
-                                Hey there! I'm Naman Bhateja, a passionate UX/UI designer with over
+                                Hey there! I&apos;m Naman Bhateja, a passionate UX/UI designer with over
                                 a year of experience crafting seamless digital experiences across
                                 web, mobile, and AI-driven platforms.
                             </div>
@@ -32,7 +32,7 @@ const Page = () => {
                                 problems but also enhance the joy of everyday interactions.
                             </div>
                             <div>
-                                Outside of work, you'll find me exploring new recipes in the kitchen
+                                Outside of work, you&apos;ll find me exploring new recipes in the kitchen
                                 🧑‍🍳, baking delicious treats 🍪, getting lost in a great book 📖,
                                 experimenting with paint 🎨, lifting weights 🏋️, or indulging in a
                                 binge-worthy series or movie (especially cartoons!) 🎥. Oh, and I
