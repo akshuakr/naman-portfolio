@@ -15,12 +15,24 @@ const geistMono = localFont({
 const satoshi = localFont({
     src: [
         {
+            path: "./fonts/Satoshi-Light.woff",
+            weight: "300",
+        },
+        {
             path: "./fonts/Satoshi-Regular.woff",
             weight: "400",
         },
         {
+            path: "./fonts/Satoshi-Medium.woff",
+            weight: "500",
+        },
+        {
             path: "./fonts/Satoshi-Bold.woff",
             weight: "700",
+        },
+        {
+            path: "./fonts/Satoshi-Black.woff",
+            weight: "900",
         },
     ],
     variable: "--font-satoshi",

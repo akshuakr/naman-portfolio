@@ -13,3 +13,74 @@
     width: 992px;
 }
 
+.bottomContainer {
+    margin-top: 56px;
+    padding: 0px 16px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    // background-color: #fff;
+}
+
+.aboutNamanLifeConatiner {
+    font-size: 24px;
+    // font-style: normal;
+    font-weight: 400;
+    // line-height: normal;
+    letter-spacing: 0.35px;
+    color: #a1a1aa;
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.aboutNamanLifeDesc {
+    width: 78%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    line-height: normal;
+}
+
+.photoDumpContainer {
+    margin-top: 56px;
+}
+
+.photoDumpHeading {
+    color: white;
+    font-size: 35.2px;
+    font-weight: 500;
+}
+
+.photoDumpDesc {
+    color: #808080;
+    font-size: 25.6px;
+    font-weight: 400;
+    line-height: normal;
+    width: 62%;
+}
+
+.photos {
+    // background-color: orange;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 56px;
+    margin-bottom: 56px;
+
+}
+
+.photosColOne {
+    // border-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+.photosColTwo {
+    // background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+}
